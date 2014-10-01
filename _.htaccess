@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Maintenance mode"
+AuthUserFile /var/www/.htpasswd
+Require valid-user
+

@@ -1,0 +1,1 @@
+Please keep these files safe, they can be used with AA Tools a powerful resign tool that runs on OS X. They can also be used with other resign tools.

@@ -1,0 +1,79 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	background-image: url('../img/sample.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+body {
+	background-color: rgba(44,62,80 , 0.6 );
+	background-image: url('../img/pattern.png');
+	background-position: center;
+	background-repeat: repeat;
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.countdown-container {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-0%);
+	-moz-transform: translateY(-0%);
+	transform: translateY(-0%);
+
+}
+
+.clock-item .inner {
+	height: 0px;
+	padding-bottom: 100%;
+	position: relative;	
+	width: 85%;
+}
+
+.clock-canvas {
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+}
+
+.text {
+	color: #fff;	
+	font-size: 30px;
+	font-weight: bold;	
+	margin-top: -50px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	width: 100%;
+}
+
+.text .val {
+	font-size: 50px;
+}
+
+.text .type-time {
+	font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.clock-item {
+		margin-bottom: 30px;		
+	}
+}
+
+@media (max-width: 767px) {
+	.clock-item {
+		margin-botom: 0px 30px 30px 30px;
+	}
+	.clock-item .inner {
+	height: 0px;
+	padding-bottom: 120%;
+	position: relative;	
+	width: 100%;
+	}
+}

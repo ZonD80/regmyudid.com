@@ -1,0 +1,14 @@
+
+<form action="ipn.php" method="POST">
+    <input name="udid" type="text" placeholder="in lowercase" required>
+    <input name="from" value="stripe" type="hidden"/>
+    <input name="type" value="REG" type="hidden"/>
+    <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_test_LXOLQq1G1HELCpnrEAtdleqn"
+        data-amount="2000"
+        data-name="Standard UDiD Activation"
+        data-description="12 Months Standard Registration (£6.99)"
+        data-image="/128x128.png">
+    </script>
+</form>
